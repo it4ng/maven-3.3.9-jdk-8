@@ -1,0 +1,5 @@
+Environment variables:
+
+- MAVEN_REPO_USER
+- MAVEN_REPO_PASS
+- MAVEN_REPO_DEPLOYMENT_URL
