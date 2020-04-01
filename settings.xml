@@ -5,9 +5,9 @@
         <profile>
             <id>it4ng.internal</id>
             <properties>
-                <altDeploymentRepository>it4ng.internal::default::${env.DEPLOYMENT_REPOSITORY}</altDeploymentRepository>
-                <altSnapshotDeploymentRepository>it4ng.internal::default::${env.DEPLOYMENT_REPOSITORY}</altSnapshotDeploymentRepository>
-                <altReleaseDeploymentRepository>it4ng.internal::default::${env.DEPLOYMENT_REPOSITORY}</altReleaseDeploymentRepository>
+                <altDeploymentRepository>it4ng.internal::default::${env.MAVEN_REPO_DEPLOYMENT_URL}</altDeploymentRepository>
+                <altSnapshotDeploymentRepository>it4ng.internal::default::${env.MAVEN_REPO_DEPLOYMENT_URL}</altSnapshotDeploymentRepository>
+                <altReleaseDeploymentRepository>it4ng.internal::default::${env.MAVEN_REPO_DEPLOYMENT_URL}</altReleaseDeploymentRepository>
             </properties>
         </profile>
     </profiles>
